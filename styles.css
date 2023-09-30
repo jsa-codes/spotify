@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000;
+    font-family: 'Manrope', sans-serif;
+    color: #fff;
+    display: grid;
+    grid-template-rows: 96px auto;
+    grid-template-columns: 240px auto;
+}
+
+/*-----------
+    SIDEBAR
+------------*/
+.sidebar {
+    background-color: #121212;
+    margin: 6px;
+    padding-left: 16px;
+    border-radius: 8px;
+}
+
+.sidebar__logo {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar__home {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar__search {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar__home p {
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+.sidebar__search p {
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+
+/*----------------- 
+    SIDEBAR IMAGES
+------------------*/
+.sidebar__logo img {
+    height: 24px;
+    width: 24px;
+    padding-right: 5px;
+}
+
+.sidebar__home img {
+    height: 24px;
+    width: 24px;
+    padding-right: 20px;
+}
+
+.sidebar__search img {
+    height: 24px;
+    width: 24px;
+    padding-right: 20px;
+    color: #fff;
+}
+
+/*------------------ 
+    SIDEBAR LIBRARY
+-------------------*/
+.sidebar__library {
+    background-color: #121212;
+    margin: 6px;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+.library-icon {
+    height: 24px;
+    width: 24px;
+    padding-right: 20px;
+}
+
+.sidebar__library-playlist {
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.library-add {
+    margin: auto;
+}
+
